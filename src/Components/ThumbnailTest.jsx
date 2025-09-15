@@ -59,7 +59,7 @@ export default function ThumbnailTest() {
           <h4 className="font-semibold mb-2">Test Results:</h4>
           {testResults.map((result, index) => (
             <div key={index} className={`text-sm ${result.status === 'success' ? 'text-green-400' : 'text-red-400'}`}>
-              Image {result.index + 1}: {result.status}
+              Image {result.index + 1}: {result.status} 
             </div>
           ))}
         </div>
